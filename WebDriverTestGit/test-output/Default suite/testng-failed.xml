@@ -7,7 +7,7 @@
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="dragAndDrop"/>
+          <include name="testW3SchoolsDragAndDrop"/>
         </methods>
       </class> <!-- runTestCases.TestDragAndDrop -->
     </classes>

@@ -1,61 +1,83 @@
 package testCases;
 
-import java.awt.AWTException;
-import java.awt.Robot;
-import java.awt.event.InputEvent;
-import java.util.ArrayList;
-import java.util.Arrays;
-
 import org.openqa.selenium.By;
-import org.openqa.selenium.Point;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import org.openqa.selenium.support.FindBy;
 
 public class TestHTML5DragDrop {
-	
-	/*@FindBy(id="one")
-	private WebElement source;
-	@FindBy(id="bin")
-	private WebElement target;*/
 
 	WebDriver driver;
 	
-	ArrayList<String> dragStart = new ArrayList<>(Arrays.asList("one","two","three","four","five"));
+	final String javaScript = "var src=arguments[0],tgt=arguments[1];var dataTransfer={dropEffect:'',effectAllowed:'all',files:[],items:{},types:[],setData:fun" +
+			"ction(format,data){this.items[format]=data;this.types.append(format);},getData:function(format){return this.items[format];},clea" +
+			"rData:function(format){}};var emit=function(event,target){var evt=document.createEvent('Event');evt.initEvent(event,true,false);" +
+			"evt.dataTransfer=dataTransfer;target.dispatchEvent(evt);};emit('dragstart',src);emit('dragenter',tgt);emit('dragover',tgt);emit(" +
+			"'drop',tgt);emit('dragend',src);";
 	
 	public TestHTML5DragDrop(WebDriver driver) {
 		this.driver = driver;
 	}
 	
 	@Test(priority=0)
-	public void testDragAndDrop() throws AWTException, InterruptedException {
-		Robot robot = new Robot();
-		for(String element : dragStart) {
-			WebElement source = driver.findElement(By.id(element));
-			WebElement target = driver.findElement(By.id("bin"));
-			
-			Point sourceCoordinates = source.getLocation();
-			Point targetCoordinates = target.getLocation();
-					
-			robot.mouseMove(sourceCoordinates.getX()+5, sourceCoordinates.getY()+108);
-			robot.mousePress(InputEvent.BUTTON1_MASK);
-			Thread.sleep(111);
-			
-			robot.mouseMove(targetCoordinates.getX()+200, targetCoordinates.getY()+108);
-			Thread.sleep(111);
-			
-			robot.mouseMove(targetCoordinates.getX(), targetCoordinates.getY()+115);
-			Thread.sleep(111);
-			robot.mouseRelease(InputEvent.BUTTON1_MASK);
-			Thread.sleep(111);
-			
-			if(driver.findElement(By.xpath("//*[@id=\"bin\"]/p")) != null) {
-				Assert.assertTrue(true);
-			} else {
-				Assert.assertTrue(false);
-			}
+	public void testDragAndDrop() {
+		WebElement source = driver.findElement(By.id("one"));
+		WebElement target = driver.findElement(By.id("bin"));
+		((JavascriptExecutor)driver).executeScript(javaScript, source, target);
+		if(driver.findElement(By.xpath("//*[@id=\"bin\"]/p")) != null) {
+			Assert.assertTrue(true);
+		} else {
+			Assert.assertTrue(false);
+		}
+	}
+	
+	@Test(priority=1)
+	public void testDragAndDrop2() {
+		WebElement source = driver.findElement(By.id("two"));
+		WebElement target = driver.findElement(By.id("bin"));
+		((JavascriptExecutor)driver).executeScript(javaScript, source, target);
+		if(driver.findElement(By.xpath("//*[@id=\"bin\"]/p")) != null) {
+			Assert.assertTrue(true);
+		} else {
+			Assert.assertTrue(false);
+		}
+	}
+	
+	@Test(priority=2)
+	public void testDragAndDrop3() {
+		WebElement source = driver.findElement(By.id("three"));
+		WebElement target = driver.findElement(By.id("bin"));
+		((JavascriptExecutor)driver).executeScript(javaScript, source, target);
+		if(driver.findElement(By.xpath("//*[@id=\"bin\"]/p")) != null) {
+			Assert.assertTrue(true);
+		} else {
+			Assert.assertTrue(false);
+		}
+	}
+	
+	@Test(priority=3)
+	public void testDragAndDrop4() {
+		WebElement source = driver.findElement(By.id("four"));
+		WebElement target = driver.findElement(By.id("bin"));
+		((JavascriptExecutor)driver).executeScript(javaScript, source, target);
+		if(driver.findElement(By.xpath("//*[@id=\"bin\"]/p")) != null) {
+			Assert.assertTrue(true);
+		} else {
+			Assert.assertTrue(false);
+		}
+	}
+	
+	@Test(priority=4)
+	public void testDragAndDrop5() {
+		WebElement source = driver.findElement(By.id("five"));
+		WebElement target = driver.findElement(By.id("bin"));
+		((JavascriptExecutor)driver).executeScript(javaScript, source, target);
+		if(driver.findElement(By.xpath("//*[@id=\"bin\"]/p")) != null) {
+			Assert.assertTrue(true);
+		} else {
+			Assert.assertTrue(false);
 		}
 	}
 }

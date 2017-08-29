@@ -1,19 +1,18 @@
 package runTestCases;
 
-import java.awt.AWTException;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
 import testCases.TestHTML5DragDrop;
+import testCases.W3SchoolsDragAndDrop;
 
 public class TestDragAndDrop {
 	
 	TestHTML5DragDrop dragAndDrop;
+	W3SchoolsDragAndDrop anotherDragAndDrop;
 	
 	WebDriver driver;
 	
@@ -26,10 +25,42 @@ public class TestDragAndDrop {
 		driver.get("https://html5demos.com/drag/");
 	}
 	
-	@Test(priority=1)
-	public void dragAndDrop() throws AWTException, InterruptedException {
+	@Test(priority=0)
+	public void dragAndDrop() {
 		dragAndDrop = new TestHTML5DragDrop(driver);
 		dragAndDrop.testDragAndDrop();
+	}
+	
+	@Test(priority=1)
+	public void dragAndDrop2() {
+		dragAndDrop = new TestHTML5DragDrop(driver);
+		dragAndDrop.testDragAndDrop2();
+	}
+	
+	
+	@Test(priority=2)
+	public void dragAndDrop3() {
+		dragAndDrop = new TestHTML5DragDrop(driver);
+		dragAndDrop.testDragAndDrop3();
+	}
+	
+	@Test(priority=3)
+	public void dragAndDrop4() {
+		dragAndDrop = new TestHTML5DragDrop(driver);
+		dragAndDrop.testDragAndDrop4();
+	}
+	
+	@Test(priority=4)
+	public void dragAndDrop5() {
+		dragAndDrop = new TestHTML5DragDrop(driver);
+		dragAndDrop.testDragAndDrop5();
+	}
+	
+	@Test (priority=5)
+	public void testW3SchoolsDragAndDrop() throws InterruptedException {
+		driver.get("https://www.w3schools.com/html/html5_draganddrop.asp");	
+		anotherDragAndDrop = new W3SchoolsDragAndDrop(driver);
+		anotherDragAndDrop.testMethod();
 	}
 	
 	@AfterTest

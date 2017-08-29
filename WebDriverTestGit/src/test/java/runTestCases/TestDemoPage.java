@@ -30,6 +30,7 @@ public class TestDemoPage {
 	public void testDemoPage() {
 		homePageObj = new HomePageTestCases(driver);
 		homePageObj.verifyDemoPageTitle();
+		homePageObj.visitSelenium();
 		homePageObj.visitJava();
 		homePageObj.visitQTP();
 		homePageObj.visitSAPBeginners();

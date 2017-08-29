@@ -1,41 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="27729" started-at="2017-08-25T12:27:44Z" finished-at="2017-08-25T12:28:12Z">
+  <suite name="Suite" duration-ms="36867" started-at="2017-08-29T17:45:48Z" finished-at="2017-08-29T17:46:25Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="22172" started-at="2017-08-25T12:27:44Z" finished-at="2017-08-25T12:28:07Z">
+    <test name="Test" duration-ms="26374" started-at="2017-08-29T17:45:48Z" finished-at="2017-08-29T17:46:14Z">
       <class name="runTestCases.TestDemoPage">
-        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:runTestCases.TestDemoPage@616ca2]" name="BeforeTest" is-config="true" duration-ms="3993" started-at="2017-08-25T09:27:44Z" finished-at="2017-08-25T09:27:48Z">
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:runTestCases.TestDemoPage@616ca2]" name="BeforeTest" is-config="true" duration-ms="3913" started-at="2017-08-29T14:45:48Z" finished-at="2017-08-29T14:45:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTest -->
-        <test-method status="PASS" signature="testDemoPage()[pri:0, instance:runTestCases.TestDemoPage@616ca2]" name="testDemoPage" duration-ms="14900" started-at="2017-08-25T09:27:48Z" finished-at="2017-08-25T09:28:03Z">
+        <test-method status="PASS" signature="testDemoPage()[pri:0, instance:runTestCases.TestDemoPage@616ca2]" name="testDemoPage" duration-ms="18932" started-at="2017-08-29T14:45:52Z" finished-at="2017-08-29T14:46:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDemoPage -->
-        <test-method status="PASS" signature="testAppLink()[pri:1, instance:runTestCases.TestDemoPage@616ca2]" name="testAppLink" duration-ms="2138" started-at="2017-08-25T09:28:03Z" finished-at="2017-08-25T09:28:05Z">
+        <test-method status="PASS" signature="testAppLink()[pri:1, instance:runTestCases.TestDemoPage@616ca2]" name="testAppLink" duration-ms="2274" started-at="2017-08-29T14:46:11Z" finished-at="2017-08-29T14:46:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAppLink -->
-        <test-method status="PASS" signature="AfterTest()[pri:0, instance:runTestCases.TestDemoPage@616ca2]" name="AfterTest" is-config="true" duration-ms="1129" started-at="2017-08-25T09:28:05Z" finished-at="2017-08-25T09:28:07Z">
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:runTestCases.TestDemoPage@616ca2]" name="AfterTest" is-config="true" duration-ms="1240" started-at="2017-08-29T14:46:13Z" finished-at="2017-08-29T14:46:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTest -->
       </class> <!-- runTestCases.TestDemoPage -->
     </test> <!-- Test -->
-    <test name="DragAndDropTest" duration-ms="5533" started-at="2017-08-25T12:28:07Z" finished-at="2017-08-25T12:28:12Z">
+    <test name="DragAndDropTest" duration-ms="10467" started-at="2017-08-29T17:46:14Z" finished-at="2017-08-29T17:46:25Z">
       <class name="runTestCases.TestDragAndDrop">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:runTestCases.TestDragAndDrop@1975490]" name="setUp" is-config="true" duration-ms="2971" started-at="2017-08-25T09:28:07Z" finished-at="2017-08-25T09:28:10Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:runTestCases.TestDragAndDrop@136f0f5]" name="setUp" is-config="true" duration-ms="3381" started-at="2017-08-29T14:46:14Z" finished-at="2017-08-29T14:46:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="dragAndDrop()[pri:1, instance:runTestCases.TestDragAndDrop@1975490]" name="dragAndDrop" duration-ms="2536" started-at="2017-08-25T09:28:10Z" finished-at="2017-08-25T09:28:12Z">
+        <test-method status="PASS" signature="dragAndDrop()[pri:0, instance:runTestCases.TestDragAndDrop@136f0f5]" name="dragAndDrop" duration-ms="68" started-at="2017-08-29T14:46:18Z" finished-at="2017-08-29T14:46:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dragAndDrop -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:runTestCases.TestDragAndDrop@1975490]" name="tearDown" is-config="true" duration-ms="26" started-at="2017-08-25T09:28:12Z" finished-at="2017-08-25T09:28:12Z">
+        <test-method status="PASS" signature="dragAndDrop2()[pri:1, instance:runTestCases.TestDragAndDrop@136f0f5]" name="dragAndDrop2" duration-ms="39" started-at="2017-08-29T14:46:18Z" finished-at="2017-08-29T14:46:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDrop2 -->
+        <test-method status="PASS" signature="dragAndDrop3()[pri:2, instance:runTestCases.TestDragAndDrop@136f0f5]" name="dragAndDrop3" duration-ms="36" started-at="2017-08-29T14:46:18Z" finished-at="2017-08-29T14:46:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDrop3 -->
+        <test-method status="PASS" signature="dragAndDrop4()[pri:3, instance:runTestCases.TestDragAndDrop@136f0f5]" name="dragAndDrop4" duration-ms="34" started-at="2017-08-29T14:46:18Z" finished-at="2017-08-29T14:46:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDrop4 -->
+        <test-method status="PASS" signature="dragAndDrop5()[pri:4, instance:runTestCases.TestDragAndDrop@136f0f5]" name="dragAndDrop5" duration-ms="35" started-at="2017-08-29T14:46:18Z" finished-at="2017-08-29T14:46:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDrop5 -->
+        <test-method status="PASS" signature="testW3SchoolsDragAndDrop()[pri:5, instance:runTestCases.TestDragAndDrop@136f0f5]" name="testW3SchoolsDragAndDrop" duration-ms="4563" started-at="2017-08-29T14:46:18Z" finished-at="2017-08-29T14:46:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testW3SchoolsDragAndDrop -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:runTestCases.TestDragAndDrop@136f0f5]" name="tearDown" is-config="true" duration-ms="2307" started-at="2017-08-29T14:46:22Z" finished-at="2017-08-29T14:46:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

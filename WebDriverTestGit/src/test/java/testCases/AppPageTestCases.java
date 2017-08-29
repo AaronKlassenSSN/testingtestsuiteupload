@@ -25,7 +25,7 @@ public class AppPageTestCases {
 		Assert.assertTrue(pageTitle.contains("Guru99 (Testing,SAP,Interview) - Android Apps on Google Play"));
 	}
 	
-	@Test(priority=0)
+	@Test(priority=1)
 	public void viewMyApps() {
 		driver.findElement(By.xpath("//*[@id=\"wrapper\"]/div[1]/div/ul/li[1]/ul/li[1]/a")).click();
 		String pageTitle = driver.getTitle();
