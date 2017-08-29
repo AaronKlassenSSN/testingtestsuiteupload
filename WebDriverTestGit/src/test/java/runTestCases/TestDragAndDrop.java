@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 import testCases.TestHTML5DragDrop;
 import testCases.W3SchoolsDragAndDrop;
 
+//@Listeners(TestMethodListener.class)
 public class TestDragAndDrop {
 	
 	TestHTML5DragDrop dragAndDrop;

@@ -10,5 +10,10 @@
 		<classes>
 			<class name="runTestCases.TestDragAndDrop" />
 		</classes>
-	</test>
+	</test> <!-- Test -->
+		<test name="TestThirdSuite">
+		<classes>
+			<class name="runTestCases.RunThirdSuite" />
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->

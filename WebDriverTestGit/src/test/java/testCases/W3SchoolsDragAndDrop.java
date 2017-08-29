@@ -12,10 +12,10 @@ public class W3SchoolsDragAndDrop {
 	static WebDriver driver;
 	
 	final static String javaScript = "var src=arguments[0],tgt=arguments[1];var dataTransfer={dropEffect:'',effectAllowed:'all',files:[],items:{},types:[],setData:fun" +
-			"ction(format,data){this.items[format]=data;this.types.append(format);},getData:function(format){return this.items[format];},clea" +
-			"rData:function(format){}};var emit=function(event,target){var evt=document.createEvent('Event');evt.initEvent(event,true,false);" +
-			"evt.dataTransfer=dataTransfer;target.dispatchEvent(evt);};emit('dragstart',src);emit('dragenter',tgt);emit('dragover',tgt);emit(" +
-			"'drop',tgt);emit('dragend',src);";
+										"ction(format,data){this.items[format]=data;this.types.append(format);},getData:function(format){return this.items[format];},clea" +
+										"rData:function(format){}};var emit=function(event,target){var evt=document.createEvent('Event');evt.initEvent(event,true,false);" +
+										"evt.dataTransfer=dataTransfer;target.dispatchEvent(evt);};emit('dragstart',src);emit('dragenter',tgt);emit('dragover',tgt);emit(" +
+										"'drop',tgt);emit('dragend',src);";
 	
 	public W3SchoolsDragAndDrop(WebDriver driver) {
 		this.driver = driver;
@@ -31,7 +31,7 @@ public class W3SchoolsDragAndDrop {
 	}
 	
 	@Test(priority=1)
-	public static void testMethod() throws InterruptedException {
+	public void testMethod() throws InterruptedException {
 		WebElement source = driver.findElement(By.id("drag1"));
 		WebElement target = driver.findElement(By.id("div2"));
 		try {
