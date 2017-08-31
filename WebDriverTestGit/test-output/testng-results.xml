@@ -2,28 +2,60 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7305" started-at="2017-08-29T18:56:27Z" finished-at="2017-08-29T18:56:34Z">
+  <suite name="Default suite" duration-ms="16443" started-at="2017-08-31T14:40:39Z" finished-at="2017-08-31T14:40:55Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7305" started-at="2017-08-29T18:56:27Z" finished-at="2017-08-29T18:56:34Z">
-      <class name="runTestCases.RunThirdSuite">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:runTestCases.RunThirdSuite@72d818d1]" name="setUp" is-config="true" duration-ms="6359" started-at="2017-08-29T15:56:27Z" finished-at="2017-08-29T15:56:33Z">
+    <test name="Default test" duration-ms="16443" started-at="2017-08-31T14:40:39Z" finished-at="2017-08-31T14:40:55Z">
+      <class name="testCases.TestingExcel">
+        <test-method status="PASS" signature="beforeMEthod()[pri:0, instance:testCases.TestingExcel@55d56113]" name="beforeMEthod" is-config="true" duration-ms="5588" started-at="2017-08-31T11:40:39Z" finished-at="2017-08-31T11:40:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyTitleText()[pri:0, instance:runTestCases.RunThirdSuite@72d818d1]" name="verifyTitleText" duration-ms="14" started-at="2017-08-29T15:56:33Z" finished-at="2017-08-29T15:56:33Z">
+        </test-method> <!-- beforeMEthod -->
+        <test-method status="PASS" signature="enterLoginInformation(java.lang.String, java.lang.String)[pri:0, instance:testCases.TestingExcel@55d56113]" name="enterLoginInformation" duration-ms="2090" started-at="2017-08-31T11:40:45Z" data-provider="Authentication" finished-at="2017-08-31T11:40:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser_1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyTitleText -->
-        <test-method status="PASS" signature="checkFirstLink()[pri:1, instance:runTestCases.RunThirdSuite@72d818d1]" name="checkFirstLink" duration-ms="27" started-at="2017-08-29T15:56:33Z" finished-at="2017-08-29T15:56:33Z">
+        </test-method> <!-- enterLoginInformation -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TestingExcel@55d56113]" name="afterMethod" is-config="true" duration-ms="842" started-at="2017-08-31T11:40:47Z" finished-at="2017-08-31T11:40:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkFirstLink -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:runTestCases.RunThirdSuite@72d818d1]" name="tearDown" is-config="true" duration-ms="891" started-at="2017-08-29T15:56:33Z" finished-at="2017-08-29T15:56:34Z">
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMEthod()[pri:0, instance:testCases.TestingExcel@55d56113]" name="beforeMEthod" is-config="true" duration-ms="4896" started-at="2017-08-31T11:40:48Z" finished-at="2017-08-31T11:40:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- runTestCases.RunThirdSuite -->
+        </test-method> <!-- beforeMEthod -->
+        <test-method status="PASS" signature="enterLoginInformation(java.lang.String, java.lang.String)[pri:0, instance:testCases.TestingExcel@55d56113]" name="enterLoginInformation" duration-ms="1799" started-at="2017-08-31T11:40:53Z" data-provider="Authentication" finished-at="2017-08-31T11:40:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser_2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterLoginInformation -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TestingExcel@55d56113]" name="afterMethod" is-config="true" duration-ms="758" started-at="2017-08-31T11:40:55Z" finished-at="2017-08-31T11:40:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.TestingExcel -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

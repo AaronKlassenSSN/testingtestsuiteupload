@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="runTestCases.TestDragAndDrop">
+      <class name="testCases.TestingExcel">
         <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="testW3SchoolsDragAndDrop"/>
+          <include name="afterMethod"/>
+          <include name="beforeMEthod"/>
+          <include name="enterLoginInformation"/>
         </methods>
-      </class> <!-- runTestCases.TestDragAndDrop -->
+      </class> <!-- testCases.TestingExcel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

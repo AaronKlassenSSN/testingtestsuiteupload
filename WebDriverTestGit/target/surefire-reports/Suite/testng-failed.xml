@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test name="TestThirdSuite(failed)">
+    <classes>
+      <class name="runTestCases.RunThirdSuite">
+        <methods>
+          <include name="tearDown"/>
+          <include name="checkTopLinks"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- runTestCases.RunThirdSuite -->
+    </classes>
+  </test> <!-- TestThirdSuite(failed) -->
+</suite> <!-- Failed suite [Suite] -->

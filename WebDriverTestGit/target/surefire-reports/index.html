@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">10 methods,   10 passed</span>
+                    <span class="method-stats">10 methods, 1 failed,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="runTestCases.RunThirdSuite" hash-for-method="checkTopLinks">checkTopLinks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,11 +114,6 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
                     <div class="method-list-content passed suite-Suite">
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="runTestCases.RunThirdSuite" hash-for-method="checkFirstLink">checkFirstLink</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="runTestCases.TestDragAndDrop" hash-for-method="dragAndDrop">dragAndDrop</a> <!-- method navigator-link -->
@@ -162,6 +171,26 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">runTestCases.RunThirdSuite</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkTopLinks">
+                  </a> <!-- checkTopLinks -->
+                  <span class="method-name">checkTopLinks</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at testCases.Outrun.viewTopLinks(Outrun.java:25)
+	at runTestCases.RunThirdSuite.checkTopLinks(RunThirdSuite.java:34)
+... Removed 38 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -240,13 +269,6 @@
               <span class="class-name">runTestCases.RunThirdSuite</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="checkFirstLink">
-                  </a> <!-- checkFirstLink -->
-                  <span class="method-name">checkFirstLink</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="verifyTitleText">
@@ -328,39 +350,39 @@ data.addRows(10);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testDemoPage')
 data.setCell(0, 2, 'runTestCases.TestDemoPage')
-data.setCell(0, 3, 19703);
+data.setCell(0, 3, 25389);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testW3SchoolsDragAndDrop')
 data.setCell(1, 2, 'runTestCases.TestDragAndDrop')
-data.setCell(1, 3, 7455);
+data.setCell(1, 3, 7243);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'testAppLink')
 data.setCell(2, 2, 'runTestCases.TestDemoPage')
-data.setCell(2, 3, 2909);
+data.setCell(2, 3, 4583);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'dragAndDrop')
-data.setCell(3, 2, 'runTestCases.TestDragAndDrop')
-data.setCell(3, 3, 69);
+data.setCell(3, 1, 'checkTopLinks')
+data.setCell(3, 2, 'runTestCases.RunThirdSuite')
+data.setCell(3, 3, 2051);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'dragAndDrop2')
+data.setCell(4, 1, 'dragAndDrop')
 data.setCell(4, 2, 'runTestCases.TestDragAndDrop')
-data.setCell(4, 3, 38);
+data.setCell(4, 3, 68);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'dragAndDrop3')
+data.setCell(5, 1, 'dragAndDrop2')
 data.setCell(5, 2, 'runTestCases.TestDragAndDrop')
-data.setCell(5, 3, 37);
+data.setCell(5, 3, 38);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'dragAndDrop4')
 data.setCell(6, 2, 'runTestCases.TestDragAndDrop')
-data.setCell(6, 3, 35);
+data.setCell(6, 3, 37);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'dragAndDrop5')
 data.setCell(7, 2, 'runTestCases.TestDragAndDrop')
 data.setCell(7, 3, 35);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'checkFirstLink')
-data.setCell(8, 2, 'runTestCases.RunThirdSuite')
-data.setCell(8, 3, 21);
+data.setCell(8, 1, 'dragAndDrop3')
+data.setCell(8, 2, 'runTestCases.TestDragAndDrop')
+data.setCell(8, 3, 34);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'verifyTitleText')
 data.setCell(9, 2, 'runTestCases.RunThirdSuite')
@@ -369,7 +391,7 @@ window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 30 seconds</span>
+              <span class="suite-total-time">Total running time: 39 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -402,69 +424,71 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">testDemoPage</span>
-                <span class="method-start">4114 ms</span>
+                <span class="method-start">4946 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testAppLink</span>
-                <span class="method-start">23819 ms</span>
+                <span class="method-start">30337 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">AfterTest</span>
-                <span class="method-start">26728 ms</span>
+                <span class="method-start">34921 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">runTestCases.TestDragAndDrop</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">28432 ms</span>
+                <span class="method-start">36311 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">dragAndDrop</span>
-                <span class="method-start">31537 ms</span>
+                <span class="method-start">39863 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">dragAndDrop2</span>
-                <span class="method-start">31606 ms</span>
+                <span class="method-start">39931 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">dragAndDrop3</span>
-                <span class="method-start">31644 ms</span>
+                <span class="method-start">39970 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">dragAndDrop4</span>
-                <span class="method-start">31681 ms</span>
+                <span class="method-start">40005 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">dragAndDrop5</span>
-                <span class="method-start">31717 ms</span>
+                <span class="method-start">40043 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testW3SchoolsDragAndDrop</span>
-                <span class="method-start">31752 ms</span>
+                <span class="method-start">40078 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">39207 ms</span>
+                <span class="method-start">47321 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">runTestCases.RunThirdSuite</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">41519 ms</span>
+                <span class="method-start">49666 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">verifyTitleText</span>
-                <span class="method-start">46959 ms</span>
+                <span class="method-start">59681 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">checkFirstLink</span>
-                <span class="method-start">46964 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkTopLinks</span>
+                <span class="method-start">59686 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">46985 ms</span>
+                <span class="method-start">61739 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

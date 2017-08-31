@@ -6,12 +6,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-import testCases.Outrun;
+import testCases.HTML5Form;
 
 public class RunThirdSuite {
-	
-	Outrun outrun;
-	
+	HTML5Form html5Form;
 	WebDriver driver;
 	
 	@BeforeTest
@@ -19,18 +17,31 @@ public class RunThirdSuite {
 		System.setProperty("webdriver.chrome.driver","C:\\ssnqa\\Selenium\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://www.reddit.com/r/outrun/");
+		driver.get("https://html5doctor.com/demos/forms/forms-example.html");
 	}
 	
 	@Test(priority=0)
-	public void verifyTitleText() {
-		outrun = new Outrun(driver);
-		outrun.verifyTitle();
+	public void fillOutFirstSection() {
+		html5Form = new HTML5Form(driver);
+		html5Form.fillOutFirstSection();
 	}
 	
 	@Test(priority=1)
-	public void checkFirstLink() {
-		driver.findElement(By.xpath("//*[@id=\"thing_t3_6wpiym\"]/div[2]/div[1]/ul/li[1]/a"));
+	public void fillOutSecondSection() {
+		html5Form = new HTML5Form(driver);
+		html5Form.fillOutBillingSection();
+	}
+	
+	@Test(priority=2)
+	public void fillOutThirdSection() {
+		html5Form = new HTML5Form(driver);
+		html5Form.fillOutCardDetails();
+	}
+	
+	@Test(priority=3)
+	public void submitForm() {
+		html5Form = new HTML5Form(driver);
+		html5Form.submit();
 	}
 
 	@AfterTest

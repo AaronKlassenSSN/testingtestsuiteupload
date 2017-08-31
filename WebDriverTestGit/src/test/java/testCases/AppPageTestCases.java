@@ -18,14 +18,14 @@ public class AppPageTestCases {
 		this.driver = driver;
 	}
 	
-	@Test(priority=0)
+	@Test
 	public void verifyPageTitle() {
 		driver.findElement(By.xpath("//*[@id=\"rt-feature\"]/div[1]/div/p/a")).click();
 		String pageTitle = driver.getTitle();
 		Assert.assertTrue(pageTitle.contains("Guru99 (Testing,SAP,Interview) - Android Apps on Google Play"));
 	}
 	
-	@Test(priority=1)
+	@Test
 	public void viewMyApps() {
 		driver.findElement(By.xpath("//*[@id=\"wrapper\"]/div[1]/div/ul/li[1]/ul/li[1]/a")).click();
 		String pageTitle = driver.getTitle();

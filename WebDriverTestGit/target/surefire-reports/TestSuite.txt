@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 48.394 sec
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 63.229 sec <<< FAILURE!
+checkTopLinks(runTestCases.RunThirdSuite)  Time elapsed: 2.053 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at testCases.Outrun.viewTopLinks(Outrun.java:25)
+	at runTestCases.RunThirdSuite.checkTopLinks(RunThirdSuite.java:34)
