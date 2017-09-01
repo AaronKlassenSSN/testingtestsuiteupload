@@ -5,38 +5,35 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
-import org.testng.annotations.BeforeMethod; 
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.DataProvider;
 import utilities.ExcelUtils;
 
 public class TestingExcel {
-	private String sTestCaseName;
-	private int iTestCaseRow;
 	WebDriver driver;
-	
-	@BeforeMethod
-	public void beforeMethod() throws Exception{
-		driver = new ChromeDriver();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.get("http://www.store.demoqa.com");
+
+	public TestingExcel(WebDriver driver) {
+		this.driver=driver;
 	}
 	
-	@Test(dataProvider="Authentication")
+	@Test
 	public void enterLoginInformation(String sUsername, String sPassword) {
 		driver.findElement(By.id("account")).click();
 		driver.findElement(By.id("log")).sendKeys(sUsername);
 		driver.findElement(By.id("pwd")).sendKeys(sPassword);
 		driver.findElement(By.id("login")).click();
 	}
-	@AfterMethod
-	public void afterMethod() {
-		driver.quit();
-	}
 	
-	@DataProvider
-	public Object[][] Authentication() throws Exception {
-		Object[][] testObjArray=ExcelUtils.getTableArray("SeleniumExcelTest.xlsx", "Sheet1");
-		return (testObjArray);
+	@Test
+	public void leaveAComment(String comment, String name, String email, String url) {
+		driver.findElement(By.id("menu-item-54")).click();
+		driver.findElement(By.id("comment")).sendKeys(comment);
+		driver.findElement(By.id("author")).sendKeys(name);
+		driver.findElement(By.id("email")).sendKeys(email);
+		driver.findElement(By.id("url")).sendKeys(url);
+		driver.findElement(By.id("submit")).click();
 	}
 }

@@ -14,7 +14,7 @@ public class RunThirdSuite {
 	
 	@BeforeTest
 	public void setUp() {
-		System.setProperty("webdriver.chrome.driver","C:\\ssnqa\\Selenium\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://html5doctor.com/demos/forms/forms-example.html");

@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
-  <test name="TestThirdSuite(failed)">
+  <test name="DragAndDropTest(failed)">
     <classes>
-      <class name="runTestCases.RunThirdSuite">
+      <class name="runTestCases.TestDragAndDrop">
         <methods>
-          <include name="tearDown"/>
-          <include name="checkTopLinks"/>
+          <include name="dragAndDrop2"/>
           <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="dragAndDrop5"/>
         </methods>
-      </class> <!-- runTestCases.RunThirdSuite -->
+      </class> <!-- runTestCases.TestDragAndDrop -->
     </classes>
-  </test> <!-- TestThirdSuite(failed) -->
+  </test> <!-- DragAndDropTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

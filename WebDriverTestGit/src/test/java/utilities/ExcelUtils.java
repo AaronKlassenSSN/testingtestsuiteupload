@@ -26,6 +26,24 @@ public class ExcelUtils {
 		}
 	}
 	
+	public int findRowNumber(String filePath, String SheetName) throws Exception {
+		int totalRowNumber=1;
+		
+		FileInputStream ExcelFile = new FileInputStream(filePath);
+		ExcelWBook = new XSSFWorkbook(ExcelFile);
+		ExcelWSheet = ExcelWBook.getSheet(SheetName);
+		int startRow=1;
+		int startCol=1;
+		int totalRows;
+		
+		return totalRowNumber;
+	}
+	
+	public int findColNumber(String filePath, String SheetName) throws Exception {
+		int totalColNumber=1;
+		return totalColNumber;
+	}
+	
 	public static Object[][] getTableArray(String filePath, String SheetName) throws Exception {
 		String[][] tabArray = null;
 		
@@ -39,7 +57,7 @@ public class ExcelUtils {
 			int startCol=1;
 			int ci=0,cj=0;
 			int totalRows=2;
-			int totalCols = 2;
+			int totalCols=2;
 			tabArray = new String[totalRows][totalCols];
 			
 			for(int i=startRow;i<=totalRows;i++,ci++) {
