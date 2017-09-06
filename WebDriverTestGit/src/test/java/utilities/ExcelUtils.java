@@ -43,6 +43,7 @@ public class ExcelUtils {
 			for(int i=startRow;i<=totalRows;i++,ci++) {
 				cj=0;
 				for(int j=startCol;j<=totalCols;j++,cj++) {
+					
 					tabArray[ci][cj]=getCellData(i,j);
 				}
 			}
@@ -58,7 +59,7 @@ public class ExcelUtils {
 	public static String getCellData(int rowNum, int colNum) throws Exception {
 		try {
 			Cell = ExcelWSheet.getRow(rowNum).getCell(colNum);
-			String cellData=Cell.getStringCellValue();
+			String cellData=Cell.toString();
 			return cellData;
 		} catch (Exception e) {
 			return "";

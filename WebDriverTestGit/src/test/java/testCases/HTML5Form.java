@@ -1,12 +1,9 @@
 package testCases;
 
-import java.util.Calendar;
-import java.util.TimeZone;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class HTML5Form {
@@ -19,12 +16,33 @@ public class HTML5Form {
 	
 	@Test
 	public void fillOutAndSubmitForm(String givenname, String familyname, String dob, String email, String url, String phone, String shoes, String address, String postCode, String country, String card, String cardName, String cardNo, String security) {
-		today=getCurrentDay();
 		
-		System.out.println(today);
+		//format string returned from cell value so we can use it to fill out date field
+		if(dob.length() > 8) {
+			dob = dob.substring(0,8);
+			dob = dob.replaceAll("[^\\d.]", "");
+		}
+		
+		if(security.length()>3) {
+			security= security.substring(0,3);
+		}
+		
+		System.out.println("givenname: "+givenname);
+		System.out.println("familyname: "+familyname);
+		System.out.println("dob: "+dob);
+		System.out.println("email: "+email);
+		System.out.println("url: "+url);
+		System.out.println("phone: "+phone);
+		System.out.println("shoes: "+shoes);
+		System.out.println("address: "+address);
+		System.out.println("postCode: "+postCode);
+		System.out.println("country: "+country);
+		System.out.println("card: "+card);
+		System.out.println("cardName: "+cardName);
+		System.out.println("cardNo: "+cardNo);
+		System.out.println("security: "+security);
 		
 		WebElement form = driver.findElement(By.id("register"));
-		
 		driver.findElement(By.id("given-name")).sendKeys(givenname);
 		driver.findElement(By.id("family-name")).sendKeys(familyname);
 		driver.findElement(By.id("dob")).sendKeys(dob);
@@ -44,15 +62,4 @@ public class HTML5Form {
 		form.submit();
 	}
 	
-	private String getCurrentDay() {
-		Calendar calendar = Calendar.getInstance(TimeZone.getDefault());
-		
-		int todayInt=calendar.get(Calendar.DAY_OF_MONTH);
-		System.out.println("Today Int: "+todayInt+"\n");
-		
-		String todayStr=Integer.toString(todayInt);
-		System.out.println("Today Str: "+todayStr+"\n");
-		
-		return todayStr;
-	}
 }

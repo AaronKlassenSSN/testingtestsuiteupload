@@ -34,8 +34,6 @@ public class RunExcelTestCase {
 		System.setProperty("webdriver.chrome.driver","chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		/*System.setProperty("webdriver.gecko.driver", "C:\\ssnqa\\Selenium\\geckodriver.exe");
-		driver=new FirefoxDriver();*/
 		driver.get("http://www.store.demoqa.com");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
