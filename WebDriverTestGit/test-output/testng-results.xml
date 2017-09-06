@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6054" started-at="2017-09-06T17:57:03Z" finished-at="2017-09-06T17:57:09Z">
+  <suite name="Default suite" duration-ms="6091" started-at="2017-09-06T18:17:07Z" finished-at="2017-09-06T18:17:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6054" started-at="2017-09-06T17:57:03Z" finished-at="2017-09-06T17:57:09Z">
+    <test name="Default test" duration-ms="6091" started-at="2017-09-06T18:17:07Z" finished-at="2017-09-06T18:17:13Z">
       <class name="runTestCases.RunThirdSuite">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:runTestCases.RunThirdSuite@71318ec4]" name="setUp" is-config="true" duration-ms="2197" started-at="2017-09-06T14:57:03Z" finished-at="2017-09-06T14:57:05Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:runTestCases.RunThirdSuite@71318ec4]" name="setUp" is-config="true" duration-ms="2214" started-at="2017-09-06T15:17:07Z" finished-at="2017-09-06T15:17:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="fillOutForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:runTestCases.RunThirdSuite@71318ec4]" name="fillOutForm" duration-ms="1328" started-at="2017-09-06T14:57:05Z" data-provider="HTML5FormData" finished-at="2017-09-06T14:57:07Z">
+        <test-method status="PASS" signature="fillOutForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:runTestCases.RunThirdSuite@71318ec4]" name="fillOutForm" duration-ms="1370" started-at="2017-09-06T15:17:10Z" data-provider="HTML5FormData" finished-at="2017-09-06T15:17:11Z">
           <params>
             <param index="0">
               <value>
@@ -87,7 +87,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillOutForm -->
-        <test-method status="PASS" signature="fillOutForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:runTestCases.RunThirdSuite@71318ec4]" name="fillOutForm" duration-ms="1104" started-at="2017-09-06T14:57:07Z" data-provider="HTML5FormData" finished-at="2017-09-06T14:57:08Z">
+        <test-method status="PASS" signature="fillOutForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:runTestCases.RunThirdSuite@71318ec4]" name="fillOutForm" duration-ms="1102" started-at="2017-09-06T15:17:11Z" data-provider="HTML5FormData" finished-at="2017-09-06T15:17:13Z">
           <params>
             <param index="0">
               <value>
@@ -163,7 +163,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillOutForm -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:runTestCases.RunThirdSuite@71318ec4]" name="tearDown" is-config="true" duration-ms="897" started-at="2017-09-06T14:57:08Z" finished-at="2017-09-06T14:57:09Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:runTestCases.RunThirdSuite@71318ec4]" name="tearDown" is-config="true" duration-ms="890" started-at="2017-09-06T15:17:13Z" finished-at="2017-09-06T15:17:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

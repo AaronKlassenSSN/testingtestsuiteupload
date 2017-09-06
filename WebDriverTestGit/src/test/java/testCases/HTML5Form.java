@@ -27,21 +27,6 @@ public class HTML5Form {
 			security= security.substring(0,3);
 		}
 		
-		System.out.println("givenname: "+givenname);
-		System.out.println("familyname: "+familyname);
-		System.out.println("dob: "+dob);
-		System.out.println("email: "+email);
-		System.out.println("url: "+url);
-		System.out.println("phone: "+phone);
-		System.out.println("shoes: "+shoes);
-		System.out.println("address: "+address);
-		System.out.println("postCode: "+postCode);
-		System.out.println("country: "+country);
-		System.out.println("card: "+card);
-		System.out.println("cardName: "+cardName);
-		System.out.println("cardNo: "+cardNo);
-		System.out.println("security: "+security);
-		
 		WebElement form = driver.findElement(By.id("register"));
 		driver.findElement(By.id("given-name")).sendKeys(givenname);
 		driver.findElement(By.id("family-name")).sendKeys(familyname);

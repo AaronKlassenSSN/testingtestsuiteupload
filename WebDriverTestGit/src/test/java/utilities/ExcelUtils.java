@@ -43,7 +43,6 @@ public class ExcelUtils {
 			for(int i=startRow;i<=totalRows;i++,ci++) {
 				cj=0;
 				for(int j=startCol;j<=totalCols;j++,cj++) {
-					
 					tabArray[ci][cj]=getCellData(i,j);
 				}
 			}
