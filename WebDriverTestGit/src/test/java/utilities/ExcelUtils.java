@@ -2,8 +2,8 @@ package utilities;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
 import java.io.IOException;
+
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -26,45 +26,24 @@ public class ExcelUtils {
 		}
 	}
 	
-	public int findRowNumber(String filePath, String SheetName) throws Exception {
-		int totalRowNumber=1;
-		
-		FileInputStream ExcelFile = new FileInputStream(filePath);
-		ExcelWBook = new XSSFWorkbook(ExcelFile);
-		ExcelWSheet = ExcelWBook.getSheet(SheetName);
-		int startRow=1;
-		int startCol=1;
-		int totalRows;
-		
-		return totalRowNumber;
-	}
-	
-	public int findColNumber(String filePath, String SheetName) throws Exception {
-		int totalColNumber=1;
-		return totalColNumber;
-	}
-	
 	public static Object[][] getTableArray(String filePath, String SheetName) throws Exception {
 		String[][] tabArray = null;
-		
 		try {
 			FileInputStream ExcelFile = new FileInputStream(filePath);
 			
 			ExcelWBook = new XSSFWorkbook(ExcelFile);
 			ExcelWSheet = ExcelWBook.getSheet(SheetName);
-			
+			String cellData="";
 			int startRow=1;
 			int startCol=1;
 			int ci=0,cj=0;
-			int totalRows=2;
-			int totalCols=2;
+			int totalRows=ExcelWSheet.getLastRowNum();
+			int totalCols=ExcelWSheet.getRow(1).getLastCellNum() - 1;
 			tabArray = new String[totalRows][totalCols];
-			
 			for(int i=startRow;i<=totalRows;i++,ci++) {
 				cj=0;
 				for(int j=startCol;j<=totalCols;j++,cj++) {
 					tabArray[ci][cj]=getCellData(i,j);
-					System.out.println(tabArray[ci][cj]);
 				}
 			}
 		} catch(FileNotFoundException e) {

@@ -11,9 +11,14 @@
 			<class name="runTestCases.TestDragAndDrop" />
 		</classes>
 	</test> <!-- Test -->
-		<test name="TestThirdSuite">
+	<test name="FillOutFormSuite">
 		<classes>
 			<class name="runTestCases.RunThirdSuite" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="ExcelSuite">
+		<classes>
+			<class name="runTestCases.RunExcelTestCase" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

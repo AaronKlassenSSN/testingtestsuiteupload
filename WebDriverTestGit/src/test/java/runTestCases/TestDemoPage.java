@@ -4,6 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -19,9 +20,11 @@ public class TestDemoPage {
 	
 	@BeforeTest
 	public void BeforeTest() {
-		System.setProperty("webdriver.chrome.driver","C:\\ssnqa\\Selenium\\chromedriver.exe");
+		/*System.setProperty("webdriver.chrome.driver","C:\\ssnqa\\Selenium\\chromedriver.exe");
 		driver = new ChromeDriver();
-		driver.manage().window().maximize();
+		driver.manage().window().maximize();*/
+		System.setProperty("webdriver.gecko.driver", "C:\\ssnqa\\Selenium\\geckodriver.exe");
+		driver=new FirefoxDriver();
 		driver.get("http://demo.guru99.com/selenium/guru99home/");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}

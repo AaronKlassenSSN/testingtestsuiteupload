@@ -28,12 +28,15 @@ public class TestingExcel {
 	}
 	
 	@Test
-	public void leaveAComment(String comment, String name, String email, String url) {
+	public void leaveAComment(String comment, String author, String email, String url) {
 		driver.findElement(By.id("menu-item-54")).click();
 		driver.findElement(By.id("comment")).sendKeys(comment);
-		driver.findElement(By.id("author")).sendKeys(name);
+		driver.findElement(By.id("author")).sendKeys(author);
 		driver.findElement(By.id("email")).sendKeys(email);
 		driver.findElement(By.id("url")).sendKeys(url);
 		driver.findElement(By.id("submit")).click();
+		if(driver.getPageSource().contains("Please enter an answer in the CAPTCHA field")) {
+			driver.navigate().back();
+		}
 	}
 }
