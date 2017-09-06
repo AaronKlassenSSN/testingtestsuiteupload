@@ -20,11 +20,11 @@ public class TestDemoPage {
 	
 	@BeforeTest
 	public void BeforeTest() {
-		/*System.setProperty("webdriver.chrome.driver","C:\\ssnqa\\Selenium\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\ssnqa\\Selenium\\chromedriver.exe");
 		driver = new ChromeDriver();
-		driver.manage().window().maximize();*/
-		System.setProperty("webdriver.gecko.driver", "C:\\ssnqa\\Selenium\\geckodriver.exe");
-		driver=new FirefoxDriver();
+		driver.manage().window().maximize();
+		/*System.setProperty("webdriver.gecko.driver", "C:\\ssnqa\\Selenium\\geckodriver.exe");
+		driver=new FirefoxDriver();*/
 		driver.get("http://demo.guru99.com/selenium/guru99home/");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}

@@ -24,11 +24,11 @@ public class RunThirdSuite {
 	
 	@BeforeTest
 	public void setUp() {
-		/*System.setProperty("webdriver.chrome.driver","chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","chromedriver.exe");
 		driver = new ChromeDriver();
-		driver.manage().window().maximize();*/
-		System.setProperty("webdriver.gecko.driver", "C:\\ssnqa\\Selenium\\geckodriver.exe");
-		driver = new FirefoxDriver();
+		driver.manage().window().maximize();
+		/*System.setProperty("webdriver.gecko.driver", "C:\\ssnqa\\Selenium\\geckodriver.exe");
+		driver = new FirefoxDriver();*/
 		driver.get("https://html5doctor.com/demos/forms/forms-example.html");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}

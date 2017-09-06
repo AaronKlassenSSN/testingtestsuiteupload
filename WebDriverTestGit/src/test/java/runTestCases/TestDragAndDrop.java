@@ -20,11 +20,11 @@ public class TestDragAndDrop {
 	
 	@BeforeTest
 	public void setUp() {
-		/*System.setProperty("webdriver.chrome.driver","C:\\ssnqa\\Selenium\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\ssnqa\\Selenium\\chromedriver.exe");
 		driver = new ChromeDriver();
-		driver.manage().window().maximize();*/
-		System.setProperty("webdriver.gecko.driver", "C:\\ssnqa\\Selenium\\geckodriver.exe");
-		driver=new FirefoxDriver();
+		driver.manage().window().maximize();
+		/*System.setProperty("webdriver.gecko.driver", "C:\\ssnqa\\Selenium\\geckodriver.exe");
+		driver=new FirefoxDriver();*/
 		driver.get("https://html5demos.com/drag/");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
