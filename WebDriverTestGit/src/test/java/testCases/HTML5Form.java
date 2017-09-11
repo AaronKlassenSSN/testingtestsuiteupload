@@ -8,7 +8,6 @@ import org.testng.annotations.Test;
 
 public class HTML5Form {
 	WebDriver driver;
-	private String today;
 	
 	public HTML5Form(WebDriver driver) {
 		this.driver = driver;

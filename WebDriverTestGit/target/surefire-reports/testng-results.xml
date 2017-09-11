@@ -2,72 +2,72 @@
 <testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="60434" started-at="2017-09-06T18:14:23Z" finished-at="2017-09-06T18:15:23Z">
+  <suite name="Suite" duration-ms="66234" started-at="2017-09-08T12:00:09Z" finished-at="2017-09-08T12:01:16Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="24279" started-at="2017-09-06T18:14:23Z" finished-at="2017-09-06T18:14:47Z">
+    <test name="Test" duration-ms="27855" started-at="2017-09-08T12:00:09Z" finished-at="2017-09-08T12:00:37Z">
       <class name="runTestCases.TestDemoPage">
-        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:runTestCases.TestDemoPage@67b872]" name="BeforeTest" is-config="true" duration-ms="3191" started-at="2017-09-06T15:14:23Z" finished-at="2017-09-06T15:14:26Z">
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:runTestCases.TestDemoPage@67b872]" name="BeforeTest" is-config="true" duration-ms="3703" started-at="2017-09-08T09:00:09Z" finished-at="2017-09-08T09:00:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTest -->
-        <test-method status="PASS" signature="testDemoPage()[pri:0, instance:runTestCases.TestDemoPage@67b872]" name="testDemoPage" duration-ms="16894" started-at="2017-09-06T15:14:26Z" finished-at="2017-09-06T15:14:43Z">
+        <test-method status="PASS" signature="testDemoPage()[pri:0, instance:runTestCases.TestDemoPage@67b872]" name="testDemoPage" duration-ms="19650" started-at="2017-09-08T09:00:13Z" finished-at="2017-09-08T09:00:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDemoPage -->
-        <test-method status="PASS" signature="testAppLink()[pri:1, instance:runTestCases.TestDemoPage@67b872]" name="testAppLink" duration-ms="3018" started-at="2017-09-06T15:14:43Z" finished-at="2017-09-06T15:14:46Z">
+        <test-method status="PASS" signature="testAppLink()[pri:1, instance:runTestCases.TestDemoPage@67b872]" name="testAppLink" duration-ms="3283" started-at="2017-09-08T09:00:33Z" finished-at="2017-09-08T09:00:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAppLink -->
-        <test-method status="PASS" signature="AfterTest()[pri:0, instance:runTestCases.TestDemoPage@67b872]" name="AfterTest" is-config="true" duration-ms="1162" started-at="2017-09-06T15:14:46Z" finished-at="2017-09-06T15:14:47Z">
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:runTestCases.TestDemoPage@67b872]" name="AfterTest" is-config="true" duration-ms="1206" started-at="2017-09-08T09:00:36Z" finished-at="2017-09-08T09:00:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTest -->
       </class> <!-- runTestCases.TestDemoPage -->
     </test> <!-- Test -->
-    <test name="DragAndDropTest" duration-ms="9546" started-at="2017-09-06T18:14:47Z" finished-at="2017-09-06T18:14:56Z">
+    <test name="DragAndDropTest" duration-ms="9397" started-at="2017-09-08T12:00:37Z" finished-at="2017-09-08T12:00:47Z">
       <class name="runTestCases.TestDragAndDrop">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:runTestCases.TestDragAndDrop@a097cc]" name="setUp" is-config="true" duration-ms="2716" started-at="2017-09-06T15:14:47Z" finished-at="2017-09-06T15:14:50Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:runTestCases.TestDragAndDrop@a097cc]" name="setUp" is-config="true" duration-ms="3475" started-at="2017-09-08T09:00:37Z" finished-at="2017-09-08T09:00:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="dragAndDrop()[pri:0, instance:runTestCases.TestDragAndDrop@a097cc]" name="dragAndDrop" duration-ms="68" started-at="2017-09-06T15:14:50Z" finished-at="2017-09-06T15:14:50Z">
+        <test-method status="PASS" signature="dragAndDrop()[pri:0, instance:runTestCases.TestDragAndDrop@a097cc]" name="dragAndDrop" duration-ms="68" started-at="2017-09-08T09:00:41Z" finished-at="2017-09-08T09:00:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dragAndDrop -->
-        <test-method status="PASS" signature="dragAndDrop2()[pri:1, instance:runTestCases.TestDragAndDrop@a097cc]" name="dragAndDrop2" duration-ms="39" started-at="2017-09-06T15:14:50Z" finished-at="2017-09-06T15:14:50Z">
+        <test-method status="PASS" signature="dragAndDrop2()[pri:1, instance:runTestCases.TestDragAndDrop@a097cc]" name="dragAndDrop2" duration-ms="39" started-at="2017-09-08T09:00:41Z" finished-at="2017-09-08T09:00:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dragAndDrop2 -->
-        <test-method status="PASS" signature="dragAndDrop3()[pri:2, instance:runTestCases.TestDragAndDrop@a097cc]" name="dragAndDrop3" duration-ms="34" started-at="2017-09-06T15:14:50Z" finished-at="2017-09-06T15:14:50Z">
+        <test-method status="PASS" signature="dragAndDrop3()[pri:2, instance:runTestCases.TestDragAndDrop@a097cc]" name="dragAndDrop3" duration-ms="35" started-at="2017-09-08T09:00:41Z" finished-at="2017-09-08T09:00:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dragAndDrop3 -->
-        <test-method status="PASS" signature="dragAndDrop4()[pri:3, instance:runTestCases.TestDragAndDrop@a097cc]" name="dragAndDrop4" duration-ms="36" started-at="2017-09-06T15:14:50Z" finished-at="2017-09-06T15:14:50Z">
+        <test-method status="PASS" signature="dragAndDrop4()[pri:3, instance:runTestCases.TestDragAndDrop@a097cc]" name="dragAndDrop4" duration-ms="36" started-at="2017-09-08T09:00:41Z" finished-at="2017-09-08T09:00:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dragAndDrop4 -->
-        <test-method status="PASS" signature="dragAndDrop5()[pri:4, instance:runTestCases.TestDragAndDrop@a097cc]" name="dragAndDrop5" duration-ms="36" started-at="2017-09-06T15:14:50Z" finished-at="2017-09-06T15:14:50Z">
+        <test-method status="PASS" signature="dragAndDrop5()[pri:4, instance:runTestCases.TestDragAndDrop@a097cc]" name="dragAndDrop5" duration-ms="36" started-at="2017-09-08T09:00:41Z" finished-at="2017-09-08T09:00:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dragAndDrop5 -->
-        <test-method status="PASS" signature="testW3SchoolsDragAndDrop()[pri:5, instance:runTestCases.TestDragAndDrop@a097cc]" name="testW3SchoolsDragAndDrop" duration-ms="4312" started-at="2017-09-06T15:14:50Z" finished-at="2017-09-06T15:14:54Z">
+        <test-method status="PASS" signature="testW3SchoolsDragAndDrop()[pri:5, instance:runTestCases.TestDragAndDrop@a097cc]" name="testW3SchoolsDragAndDrop" duration-ms="3400" started-at="2017-09-08T09:00:41Z" finished-at="2017-09-08T09:00:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testW3SchoolsDragAndDrop -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:runTestCases.TestDragAndDrop@a097cc]" name="tearDown" is-config="true" duration-ms="2303" started-at="2017-09-06T15:14:54Z" finished-at="2017-09-06T15:14:56Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:runTestCases.TestDragAndDrop@a097cc]" name="tearDown" is-config="true" duration-ms="2308" started-at="2017-09-08T09:00:44Z" finished-at="2017-09-08T09:00:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- runTestCases.TestDragAndDrop -->
     </test> <!-- DragAndDropTest -->
-    <test name="FillOutFormSuite" duration-ms="5879" started-at="2017-09-06T18:14:56Z" finished-at="2017-09-06T18:15:02Z">
+    <test name="FillOutFormSuite" duration-ms="5425" started-at="2017-09-08T12:00:47Z" finished-at="2017-09-08T12:00:52Z">
       <class name="runTestCases.RunThirdSuite">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:runTestCases.RunThirdSuite@1f70c54]" name="setUp" is-config="true" duration-ms="1888" started-at="2017-09-06T15:14:56Z" finished-at="2017-09-06T15:14:58Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:runTestCases.RunThirdSuite@1f70c54]" name="setUp" is-config="true" duration-ms="1455" started-at="2017-09-08T09:00:47Z" finished-at="2017-09-08T09:00:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="fillOutForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:runTestCases.RunThirdSuite@1f70c54]" name="fillOutForm" duration-ms="1291" started-at="2017-09-06T15:14:59Z" data-provider="HTML5FormData" finished-at="2017-09-06T15:15:00Z">
+        <test-method status="PASS" signature="fillOutForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:runTestCases.RunThirdSuite@1f70c54]" name="fillOutForm" duration-ms="1280" started-at="2017-09-08T09:00:49Z" data-provider="HTML5FormData" finished-at="2017-09-08T09:00:50Z">
           <params>
             <param index="0">
               <value>
@@ -143,7 +143,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillOutForm -->
-        <test-method status="PASS" signature="fillOutForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:runTestCases.RunThirdSuite@1f70c54]" name="fillOutForm" duration-ms="1059" started-at="2017-09-06T15:15:00Z" data-provider="HTML5FormData" finished-at="2017-09-06T15:15:01Z">
+        <test-method status="PASS" signature="fillOutForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:runTestCases.RunThirdSuite@1f70c54]" name="fillOutForm" duration-ms="1053" started-at="2017-09-08T09:00:50Z" data-provider="HTML5FormData" finished-at="2017-09-08T09:00:51Z">
           <params>
             <param index="0">
               <value>
@@ -219,19 +219,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillOutForm -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:runTestCases.RunThirdSuite@1f70c54]" name="tearDown" is-config="true" duration-ms="1089" started-at="2017-09-06T15:15:01Z" finished-at="2017-09-06T15:15:02Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:runTestCases.RunThirdSuite@1f70c54]" name="tearDown" is-config="true" duration-ms="1087" started-at="2017-09-08T09:00:51Z" finished-at="2017-09-08T09:00:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- runTestCases.RunThirdSuite -->
     </test> <!-- FillOutFormSuite -->
-    <test name="ExcelSuite" duration-ms="20700" started-at="2017-09-06T18:15:02Z" finished-at="2017-09-06T18:15:23Z">
+    <test name="ExcelSuite" duration-ms="23519" started-at="2017-09-08T12:00:52Z" finished-at="2017-09-08T12:01:16Z">
       <class name="runTestCases.RunExcelTestCase">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:runTestCases.RunExcelTestCase@843fce]" name="setUp" is-config="true" duration-ms="5689" started-at="2017-09-06T15:15:02Z" finished-at="2017-09-06T15:15:08Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:runTestCases.RunExcelTestCase@843fce]" name="setUp" is-config="true" duration-ms="5356" started-at="2017-09-08T09:00:52Z" finished-at="2017-09-08T09:00:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="runExcelTest(java.lang.String, java.lang.String)[pri:0, instance:runTestCases.RunExcelTestCase@843fce]" name="runExcelTest" duration-ms="2302" started-at="2017-09-06T15:15:08Z" data-provider="Authentication" finished-at="2017-09-06T15:15:10Z">
+        <test-method status="PASS" signature="runExcelTest(java.lang.String, java.lang.String)[pri:0, instance:runTestCases.RunExcelTestCase@843fce]" name="runExcelTest" duration-ms="1754" started-at="2017-09-08T09:00:58Z" data-provider="Authentication" finished-at="2017-09-08T09:00:59Z">
           <params>
             <param index="0">
               <value>
@@ -247,7 +247,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runExcelTest -->
-        <test-method status="PASS" signature="runExcelTest(java.lang.String, java.lang.String)[pri:0, instance:runTestCases.RunExcelTestCase@843fce]" name="runExcelTest" duration-ms="2089" started-at="2017-09-06T15:15:10Z" data-provider="Authentication" finished-at="2017-09-06T15:15:12Z">
+        <test-method status="PASS" signature="runExcelTest(java.lang.String, java.lang.String)[pri:0, instance:runTestCases.RunExcelTestCase@843fce]" name="runExcelTest" duration-ms="3318" started-at="2017-09-08T09:00:59Z" data-provider="Authentication" finished-at="2017-09-08T09:01:03Z">
           <params>
             <param index="0">
               <value>
@@ -263,7 +263,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runExcelTest -->
-        <test-method status="PASS" signature="runExcelTest(java.lang.String, java.lang.String)[pri:0, instance:runTestCases.RunExcelTestCase@843fce]" name="runExcelTest" duration-ms="1916" started-at="2017-09-06T15:15:12Z" data-provider="Authentication" finished-at="2017-09-06T15:15:14Z">
+        <test-method status="PASS" signature="runExcelTest(java.lang.String, java.lang.String)[pri:0, instance:runTestCases.RunExcelTestCase@843fce]" name="runExcelTest" duration-ms="3633" started-at="2017-09-08T09:01:03Z" data-provider="Authentication" finished-at="2017-09-08T09:01:06Z">
           <params>
             <param index="0">
               <value>
@@ -279,7 +279,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runExcelTest -->
-        <test-method status="PASS" signature="leaveAComment(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:runTestCases.RunExcelTestCase@843fce]" name="leaveAComment" duration-ms="3951" started-at="2017-09-06T15:15:14Z" data-provider="AuthenticationLeaveAComment" finished-at="2017-09-06T15:15:18Z">
+        <test-method status="PASS" signature="leaveAComment(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:runTestCases.RunExcelTestCase@843fce]" name="leaveAComment" duration-ms="4854" started-at="2017-09-08T09:01:06Z" data-provider="AuthenticationLeaveAComment" finished-at="2017-09-08T09:01:11Z">
           <params>
             <param index="0">
               <value>
@@ -305,7 +305,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- leaveAComment -->
-        <test-method status="PASS" signature="leaveAComment(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:runTestCases.RunExcelTestCase@843fce]" name="leaveAComment" duration-ms="3579" started-at="2017-09-06T15:15:18Z" data-provider="AuthenticationLeaveAComment" finished-at="2017-09-06T15:15:22Z">
+        <test-method status="PASS" signature="leaveAComment(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:runTestCases.RunExcelTestCase@843fce]" name="leaveAComment" duration-ms="3435" started-at="2017-09-08T09:01:11Z" data-provider="AuthenticationLeaveAComment" finished-at="2017-09-08T09:01:15Z">
           <params>
             <param index="0">
               <value>
@@ -331,7 +331,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- leaveAComment -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:runTestCases.RunExcelTestCase@843fce]" name="TearDown" is-config="true" duration-ms="1105" started-at="2017-09-06T15:15:22Z" finished-at="2017-09-06T15:15:23Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:runTestCases.RunExcelTestCase@843fce]" name="TearDown" is-config="true" duration-ms="1101" started-at="2017-09-08T09:01:15Z" finished-at="2017-09-08T09:01:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
