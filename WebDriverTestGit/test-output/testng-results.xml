@@ -1,173 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6091" started-at="2017-09-06T18:17:07Z" finished-at="2017-09-06T18:17:13Z">
+  <suite name="Default suite" duration-ms="4693" started-at="2017-09-12T12:19:55Z" finished-at="2017-09-12T12:19:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6091" started-at="2017-09-06T18:17:07Z" finished-at="2017-09-06T18:17:13Z">
-      <class name="runTestCases.RunThirdSuite">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:runTestCases.RunThirdSuite@71318ec4]" name="setUp" is-config="true" duration-ms="2214" started-at="2017-09-06T15:17:07Z" finished-at="2017-09-06T15:17:10Z">
+    <test name="Default test" duration-ms="4693" started-at="2017-09-12T12:19:55Z" finished-at="2017-09-12T12:19:59Z">
+      <class name="runTestCases.RunReactTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:runTestCases.RunReactTest@544fe44c]" name="SetUp" is-config="true" duration-ms="3636" started-at="2017-09-12T09:19:55Z" finished-at="2017-09-12T09:19:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="fillOutForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:runTestCases.RunThirdSuite@71318ec4]" name="fillOutForm" duration-ms="1370" started-at="2017-09-06T15:17:10Z" data-provider="HTML5FormData" finished-at="2017-09-06T15:17:11Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Aaron]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Klassen]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1941992.0]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[testemail@noemail.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[http://www.screenscape.com]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[555-1234]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[10.0]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[614 North River Rd, Charlottetown, PEI]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[C0A 1H5]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[Canada]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[visa]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[Aaron Klassen]]>
-              </value>
-            </param>
-            <param index="12">
-              <value>
-                <![CDATA[0000 1234 5678 9000 0000]]>
-              </value>
-            </param>
-            <param index="13">
-              <value>
-                <![CDATA[125.0]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="fillOutReactForm()[pri:0, instance:runTestCases.RunReactTest@544fe44c]" name="fillOutReactForm" duration-ms="1044" started-at="2017-09-12T09:19:58Z" finished-at="2017-09-12T09:19:59Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fillOutForm -->
-        <test-method status="PASS" signature="fillOutForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:runTestCases.RunThirdSuite@71318ec4]" name="fillOutForm" duration-ms="1102" started-at="2017-09-06T15:17:11Z" data-provider="HTML5FormData" finished-at="2017-09-06T15:17:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Another]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Name]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1062009.0]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[anotheremail@noemail.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[http://www.google.ca]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[555-4679]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[8.0]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[35 warren grove rd., Charlottetown, PEI]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[C0A 1H5]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[Canada]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[visa]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[Another Name]]>
-              </value>
-            </param>
-            <param index="12">
-              <value>
-                <![CDATA[0000 9876 5432 1000 0000]]>
-              </value>
-            </param>
-            <param index="13">
-              <value>
-                <![CDATA[824.0]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- fillOutReactForm -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:runTestCases.RunReactTest@544fe44c]" name="TearDown" is-config="true" duration-ms="0" started-at="2017-09-12T09:19:59Z" finished-at="2017-09-12T09:19:59Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fillOutForm -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:runTestCases.RunThirdSuite@71318ec4]" name="tearDown" is-config="true" duration-ms="890" started-at="2017-09-06T15:17:13Z" finished-at="2017-09-06T15:17:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- runTestCases.RunThirdSuite -->
+        </test-method> <!-- TearDown -->
+      </class> <!-- runTestCases.RunReactTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
