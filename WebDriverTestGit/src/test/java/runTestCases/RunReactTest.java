@@ -32,6 +32,6 @@ public class RunReactTest {
 	
 	@AfterTest
 	public void TearDown() {
-		//driver.quit();
+		driver.quit();
 	}
 }

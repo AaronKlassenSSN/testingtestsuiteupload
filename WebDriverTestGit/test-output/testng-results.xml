@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4693" started-at="2017-09-12T12:19:55Z" finished-at="2017-09-12T12:19:59Z">
+  <suite name="Default suite" duration-ms="5440" started-at="2017-09-14T11:08:31Z" finished-at="2017-09-14T11:08:37Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4693" started-at="2017-09-12T12:19:55Z" finished-at="2017-09-12T12:19:59Z">
+    <test name="Default test" duration-ms="5440" started-at="2017-09-14T11:08:31Z" finished-at="2017-09-14T11:08:37Z">
       <class name="runTestCases.RunReactTest">
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:runTestCases.RunReactTest@544fe44c]" name="SetUp" is-config="true" duration-ms="3636" started-at="2017-09-12T09:19:55Z" finished-at="2017-09-12T09:19:58Z">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:runTestCases.RunReactTest@544fe44c]" name="SetUp" is-config="true" duration-ms="3414" started-at="2017-09-14T08:08:31Z" finished-at="2017-09-14T08:08:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="fillOutReactForm()[pri:0, instance:runTestCases.RunReactTest@544fe44c]" name="fillOutReactForm" duration-ms="1044" started-at="2017-09-12T09:19:58Z" finished-at="2017-09-12T09:19:59Z">
+        <test-method status="PASS" signature="fillOutReactForm()[pri:0, instance:runTestCases.RunReactTest@544fe44c]" name="fillOutReactForm" duration-ms="1057" started-at="2017-09-14T08:08:35Z" finished-at="2017-09-14T08:08:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillOutReactForm -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:runTestCases.RunReactTest@544fe44c]" name="TearDown" is-config="true" duration-ms="0" started-at="2017-09-12T09:19:59Z" finished-at="2017-09-12T09:19:59Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:runTestCases.RunReactTest@544fe44c]" name="TearDown" is-config="true" duration-ms="929" started-at="2017-09-14T08:08:36Z" finished-at="2017-09-14T08:08:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
