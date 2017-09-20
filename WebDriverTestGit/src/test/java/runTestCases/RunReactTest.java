@@ -25,13 +25,14 @@ public class RunReactTest {
 	}
 	
 	@Test(priority=0)
-	public void fillOutReactForm() {
+	public void fillOutReactForm() { 
 		reactPage = new TestingReactPage(driver);
-		reactPage.fillOutReactForm();
+		reactPage.fillOutReactFormRegisterSimple(); 
+		reactPage.fillOutReactFormCompanyReactWidgets();
 	}
 	
-	@AfterTest
+	/*@AfterTest
 	public void TearDown() {
 		driver.quit();
-	}
+	}*/
 }

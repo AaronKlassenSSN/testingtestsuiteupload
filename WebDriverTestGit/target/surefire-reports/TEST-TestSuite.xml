@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="15" failures="0" name="TestSuite" time="41.139" errors="0" skipped="0">
+<testsuite tests="15" failures="0" name="TestSuite" time="45.546" errors="0" skipped="0">
   <properties>
     <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -30,17 +30,17 @@
     <property name="VIM_HOME" value="C:\ssn_dev\tools\vim"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="LOCALAPPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Local"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/WebDriverTest/20/display/redirect?page=changes"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/WebDriverTest/22/display/redirect?page=changes"/>
     <property name="user.timezone" value="America/Halifax"/>
     <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
     <property name="user.script" value=""/>
     <property name="path.separator" value=";"/>
     <property name="NUMBER_OF_PROCESSORS" value="8"/>
-    <property name="BUILD_TAG" value="jenkins-WebDriverTest-20"/>
+    <property name="BUILD_TAG" value="jenkins-WebDriverTest-22"/>
     <property name="windows_tracing_flags" value="3"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="VS140COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Program Files\Maven C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-3.7.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.11.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.11.jar 64402"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Program Files\Maven C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-3.7.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.11.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.11.jar 65048"/>
     <property name="JENKINS_SERVER_COOKIE" value="6324c82fdd3c57b7"/>
     <property name="GCC_HOME" value="C:\MinGW"/>
     <property name="EXECUTOR_NUMBER" value="1"/>
@@ -59,7 +59,7 @@
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="sun.desktop" value="windows"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="BUILD_DISPLAY_NAME" value="#20"/>
+    <property name="BUILD_DISPLAY_NAME" value="#22"/>
     <property name="OS" value="Windows_NT"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="HUDSON_SERVER_COOKIE" value="6324c82fdd3c57b7"/>
@@ -75,7 +75,7 @@
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="FP_NO_HOST_CHECK" value="NO"/>
     <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
-    <property name="BUILD_NUMBER" value="20"/>
+    <property name="BUILD_NUMBER" value="22"/>
     <property name="maven3.interceptor" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.11.jar"/>
     <property name="java.library.path" value="C:\ssn_dev\sdks\java\jdk18_u101_x86\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Maven/bin;C:\ssn_dev\sdks\java\jdk18_u101_x86/bin;C:\ssn_dev\sdks\java\jdk18_u101_x86/bin;C:\ssn_dev;C:\Users\aaron.klassen\AppData\Local\Android\android-sdk\platform-tools;C:\ssnqa\Selenium\apache-ant-1.10.1-bin\apache-ant-1.10.1\bin;C:\ssn_dev\tools\bash\bin;C:\ssn_dev\tools\groovy-2.4.6\bin;C:\ssn_dev\tools\gradle-3.4.1\bin;C:\ssn_dev\sdks\gwt-2.6.1\bin;C:\ssn_dev\tools\vim;C:\ssn_dev\sdks\java\jdk18_u101_x86\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Intel\Services\IPT\;C:\Program Files (x86)\NTRU Cryptosystems\NTRU TCG Software Stack\bin\;C:\Program Files\NTRU Cryptosystems\NTRU TCG Software Stack\bin\;C:\Program Files\Dell\Dell Data Protection\Access\Advanced\Wave\Gemalto\Access Client\v5\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\nodejs\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Maven\bin;;."/>
     <property name="WINSW_EXECUTABLE" value="C:\Program Files (x86)\Jenkins\jenkins.exe"/>
@@ -85,9 +85,9 @@
     <property name="java.class.version" value="52.0"/>
     <property name="ANT_HOME" value="C:\ssnqa\Selenium\apache-ant-1.10.1-bin\apache-ant-1.10.1"/>
     <property name="GRADLE_USER_HOME_JAVA" value="c:\ssn_dev\src\buildsupport\localdev\trunk_java"/>
-    <property name="RUN_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/WebDriverTest/20/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/WebDriverTest/22/display/redirect"/>
     <property name="JENKINS_HOME" value="C:\Program Files (x86)\Jenkins"/>
-    <property name="BUILD_ID" value="20"/>
+    <property name="BUILD_ID" value="22"/>
     <property name="TEMP" value="C:\Windows\TEMP"/>
     <property name="sun.boot.library.path" value="C:\ssn_dev\sdks\java\jdk18_u101_x86\jre\bin"/>
     <property name="JAVA_HOME_OLD" value="C:\ssn_dev\sdks\java\jdk7_x86"/>
@@ -151,19 +151,19 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="32"/>
   </properties>
-  <testcase classname="runTestCases.TestDemoPage" name="testDemoPage" time="18.109"/>
-  <testcase classname="runTestCases.TestDemoPage" name="testAppLink" time="2.187"/>
-  <testcase classname="runTestCases.TestDragAndDrop" name="dragAndDrop" time="0.102"/>
-  <testcase classname="runTestCases.TestDragAndDrop" name="dragAndDrop2" time="0.038"/>
-  <testcase classname="runTestCases.TestDragAndDrop" name="dragAndDrop3" time="0.037"/>
+  <testcase classname="runTestCases.TestDemoPage" name="testDemoPage" time="19.167"/>
+  <testcase classname="runTestCases.TestDemoPage" name="testAppLink" time="2.175"/>
+  <testcase classname="runTestCases.TestDragAndDrop" name="dragAndDrop" time="0.105"/>
+  <testcase classname="runTestCases.TestDragAndDrop" name="dragAndDrop2" time="0.04"/>
+  <testcase classname="runTestCases.TestDragAndDrop" name="dragAndDrop3" time="0.036"/>
   <testcase classname="runTestCases.TestDragAndDrop" name="dragAndDrop4" time="0.037"/>
-  <testcase classname="runTestCases.TestDragAndDrop" name="dragAndDrop5" time="0.034"/>
-  <testcase classname="runTestCases.TestDragAndDrop" name="testW3SchoolsDragAndDrop" time="3.384"/>
-  <testcase classname="runTestCases.RunThirdSuite" name="fillOutForm" time="1.27"/>
-  <testcase classname="runTestCases.RunThirdSuite" name="fillOutForm" time="1.045"/>
-  <testcase classname="runTestCases.RunExcelTestCase" name="runExcelTest" time="3.394"/>
-  <testcase classname="runTestCases.RunExcelTestCase" name="runExcelTest" time="2.33"/>
-  <testcase classname="runTestCases.RunExcelTestCase" name="runExcelTest" time="2.066"/>
-  <testcase classname="runTestCases.RunExcelTestCase" name="leaveAComment" time="3.672"/>
-  <testcase classname="runTestCases.RunExcelTestCase" name="leaveAComment" time="3.434"/>
+  <testcase classname="runTestCases.TestDragAndDrop" name="dragAndDrop5" time="0.037"/>
+  <testcase classname="runTestCases.TestDragAndDrop" name="testW3SchoolsDragAndDrop" time="3.618"/>
+  <testcase classname="runTestCases.RunThirdSuite" name="fillOutForm" time="1.311"/>
+  <testcase classname="runTestCases.RunThirdSuite" name="fillOutForm" time="1.07"/>
+  <testcase classname="runTestCases.RunExcelTestCase" name="runExcelTest" time="2.268"/>
+  <testcase classname="runTestCases.RunExcelTestCase" name="runExcelTest" time="4.798"/>
+  <testcase classname="runTestCases.RunExcelTestCase" name="runExcelTest" time="2.51"/>
+  <testcase classname="runTestCases.RunExcelTestCase" name="leaveAComment" time="4.22"/>
+  <testcase classname="runTestCases.RunExcelTestCase" name="leaveAComment" time="4.154"/>
 </testsuite>
