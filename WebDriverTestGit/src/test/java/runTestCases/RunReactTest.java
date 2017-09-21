@@ -25,10 +25,12 @@ public class RunReactTest {
 	}
 	
 	@Test(priority=0)
-	public void fillOutReactForm() { 
+	public void fillOutReactForm() throws InterruptedException { 
 		reactPage = new TestingReactPage(driver);
 		reactPage.fillOutReactFormRegisterSimple(); 
 		reactPage.fillOutReactFormCompanyReactWidgets();
+		reactPage.fillOutReactFormCompanySimple();
+		reactPage.fillOutReactFormNestedFields();
 	}
 	
 	/*@AfterTest
