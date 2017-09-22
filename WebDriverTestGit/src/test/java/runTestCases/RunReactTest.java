@@ -31,6 +31,9 @@ public class RunReactTest {
 		reactPage.fillOutReactFormCompanyReactWidgets();
 		reactPage.fillOutReactFormCompanySimple();
 		reactPage.fillOutReactFormNestedFields();
+		reactPage.fillOutReactFormFileUploadTest();
+		reactPage.fillOutReactFormDynamicFieldsSelect();
+		reactPage.fillOutReactFormRegisterMaterial();
 	}
 	
 	/*@AfterTest

@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7344" started-at="2017-09-21T11:59:34Z" finished-at="2017-09-21T11:59:42Z">
+  <suite name="Default suite" duration-ms="11219" started-at="2017-09-22T17:18:25Z" finished-at="2017-09-22T17:18:37Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7344" started-at="2017-09-21T11:59:34Z" finished-at="2017-09-21T11:59:42Z">
+    <test name="Default test" duration-ms="11219" started-at="2017-09-22T17:18:25Z" finished-at="2017-09-22T17:18:37Z">
       <class name="runTestCases.RunReactTest">
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:runTestCases.RunReactTest@31dc339b]" name="SetUp" is-config="true" duration-ms="3296" started-at="2017-09-21T08:59:34Z" finished-at="2017-09-21T08:59:38Z">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:runTestCases.RunReactTest@31dc339b]" name="SetUp" is-config="true" duration-ms="3259" started-at="2017-09-22T14:18:25Z" finished-at="2017-09-22T14:18:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="fillOutReactForm()[pri:0, instance:runTestCases.RunReactTest@31dc339b]" name="fillOutReactForm" duration-ms="4034" started-at="2017-09-21T08:59:38Z" finished-at="2017-09-21T08:59:42Z">
+        <test-method status="PASS" signature="fillOutReactForm()[pri:0, instance:runTestCases.RunReactTest@31dc339b]" name="fillOutReactForm" duration-ms="7945" started-at="2017-09-22T14:18:29Z" finished-at="2017-09-22T14:18:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillOutReactForm -->
