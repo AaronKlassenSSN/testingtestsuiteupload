@@ -21,4 +21,9 @@
 			<class name="runTestCases.RunExcelTestCase" />
 		</classes>
 	</test> <!-- Test -->
+	<test name="ReactSuite">
+		<classes>
+			<class name="runTestCases.RunReactTest" />
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->

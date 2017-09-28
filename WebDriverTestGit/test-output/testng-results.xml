@@ -1,21 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11219" started-at="2017-09-22T17:18:25Z" finished-at="2017-09-22T17:18:37Z">
+  <suite name="Default suite" duration-ms="9127" started-at="2017-09-28T16:42:51Z" finished-at="2017-09-28T16:43:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11219" started-at="2017-09-22T17:18:25Z" finished-at="2017-09-22T17:18:37Z">
-      <class name="runTestCases.RunReactTest">
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:runTestCases.RunReactTest@31dc339b]" name="SetUp" is-config="true" duration-ms="3259" started-at="2017-09-22T14:18:25Z" finished-at="2017-09-22T14:18:29Z">
+    <test name="Default test" duration-ms="9127" started-at="2017-09-28T16:42:51Z" finished-at="2017-09-28T16:43:00Z">
+      <class name="runTestCases.TestDragAndDrop">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:runTestCases.TestDragAndDrop@544fe44c]" name="setUp" is-config="true" duration-ms="3075" started-at="2017-09-28T13:42:51Z" finished-at="2017-09-28T13:42:54Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="fillOutReactForm()[pri:0, instance:runTestCases.RunReactTest@31dc339b]" name="fillOutReactForm" duration-ms="7945" started-at="2017-09-22T14:18:29Z" finished-at="2017-09-22T14:18:37Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="dragAndDrop()[pri:0, instance:runTestCases.TestDragAndDrop@544fe44c]" name="dragAndDrop" duration-ms="92" started-at="2017-09-28T13:42:54Z" finished-at="2017-09-28T13:42:54Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fillOutReactForm -->
-      </class> <!-- runTestCases.RunReactTest -->
+        </test-method> <!-- dragAndDrop -->
+        <test-method status="PASS" signature="dragAndDrop2()[pri:1, instance:runTestCases.TestDragAndDrop@544fe44c]" name="dragAndDrop2" duration-ms="44" started-at="2017-09-28T13:42:54Z" finished-at="2017-09-28T13:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDrop2 -->
+        <test-method status="PASS" signature="dragAndDrop3()[pri:2, instance:runTestCases.TestDragAndDrop@544fe44c]" name="dragAndDrop3" duration-ms="40" started-at="2017-09-28T13:42:54Z" finished-at="2017-09-28T13:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDrop3 -->
+        <test-method status="PASS" signature="dragAndDrop4()[pri:3, instance:runTestCases.TestDragAndDrop@544fe44c]" name="dragAndDrop4" duration-ms="38" started-at="2017-09-28T13:42:54Z" finished-at="2017-09-28T13:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDrop4 -->
+        <test-method status="PASS" signature="dragAndDrop5()[pri:4, instance:runTestCases.TestDragAndDrop@544fe44c]" name="dragAndDrop5" duration-ms="43" started-at="2017-09-28T13:42:54Z" finished-at="2017-09-28T13:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDrop5 -->
+        <test-method status="PASS" signature="testW3SchoolsDragAndDrop()[pri:5, instance:runTestCases.TestDragAndDrop@544fe44c]" name="testW3SchoolsDragAndDrop" duration-ms="3459" started-at="2017-09-28T13:42:54Z" finished-at="2017-09-28T13:42:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testW3SchoolsDragAndDrop -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:runTestCases.TestDragAndDrop@544fe44c]" name="tearDown" is-config="true" duration-ms="2317" started-at="2017-09-28T13:42:58Z" finished-at="2017-09-28T13:43:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- runTestCases.TestDragAndDrop -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

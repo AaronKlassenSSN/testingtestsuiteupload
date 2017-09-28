@@ -5,6 +5,7 @@
     <classes>
       <class name="runTestCases.RunReactTest">
         <methods>
+          <include name="TearDown"/>
           <include name="SetUp"/>
           <include name="fillOutReactForm"/>
         </methods>

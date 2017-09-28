@@ -80,9 +80,8 @@ public class TestingReactPage {
 		driver.findElement(By.id("revenue--33")).sendKeys("123456789");
 		driver.findElement(By.id("assets--34")).sendKeys("666");
 		driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[4]/div[1]/form/div[5]/div")).click();
-		Thread.sleep(500);
+		Thread.sleep(75);
 		if(driver.findElements(By.xpath("//*[@id=\"app\"]/div/div[4]/div[1]/form/div[5]/div/div[2]")).size() != 0) {
-			System.out.println("Dropdown should be visible");
 			driver.findElement(By.id("react-select-2--option-0")).click();
 			driver.findElement(By.id("react-select-2--option-0")).click();
 			driver.findElement(By.id("react-select-2--option-0")).click();
@@ -100,7 +99,6 @@ public class TestingReactPage {
 		driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[4]/div[1]/form/fieldset[1]/div[1]/div/span/button[1]")).click();
 		driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[4]/div[1]/form/fieldset[2]/div/div/span/button[2]")).click();
 		driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[4]/div[1]/form/fieldset[2]/div/div/span/button[1]")).click();
-		
 		
 		driver.findElement(By.id("club-name--2")).sendKeys("New Club");
 		driver.findElement(By.id("club-city--3")).sendKeys("Charlottetown");
@@ -128,27 +126,31 @@ public class TestingReactPage {
 		menu.selectByValue("fileUpload");
 		
 		driver.findElement(By.id("myFileUpload--18")).sendKeys("C:\\Users\\aaron.klassen\\Downloads\\testingFile.txt");
-		Thread.sleep(1000);
+		Thread.sleep(100);
 		driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[4]/div[1]/form/div[1]/div/div/button")).click();
 	}
 	
 	@Test
-	public void fillOutReactFormDynamicFieldsSelect() {
+	public void fillOutReactFormDynamicFieldsSelect() throws InterruptedException {
 		Select menu = new Select(driver.findElement(By.name("menu")));
 		menu.selectByValue("dynamicFieldsSelect");
+		
+		driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[4]/div[1]/form/div[1]")).click();
+		Thread.sleep(100);
+		driver.findElement(By.id("react-select-2--option-0")).click();
 	}
 	
-	@Test
+	/*@Test
 	public void fillOutReactFormRegisterMaterial() {
 		Select menu = new Select(driver.findElement(By.name("menu")));
 		menu.selectByValue("registerMaterial");
 		
-		/*driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[4]/div[1]/form/div[7]/button[2]")).click();
+		driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[4]/div[1]/form/div[7]/button[2]")).click();
 		driver.findElement(By.id("username--20")).sendKeys("newUser");
 		driver.findElement(By.id("email--21")).sendKeys("s.jobs@apple.com");
 		driver.findElement(By.id("emailConfirm--22")).sendKeys("s.jobs@apple.com");
 		driver.findElement(By.id("password--23")).sendKeys("Password!");
 		driver.findElement(By.id("devSkills--24")).sendKeys("8");
-		driver.findElement(By.id("terms--25")).click();*/
-	}
+		driver.findElement(By.id("terms--25")).click();
+	}*/
 }

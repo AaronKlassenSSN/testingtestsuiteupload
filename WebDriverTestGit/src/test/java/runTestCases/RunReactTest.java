@@ -27,17 +27,17 @@ public class RunReactTest {
 	@Test(priority=0)
 	public void fillOutReactForm() throws InterruptedException { 
 		reactPage = new TestingReactPage(driver);
-		reactPage.fillOutReactFormRegisterSimple(); 
+		reactPage.fillOutReactFormRegisterSimple();
 		reactPage.fillOutReactFormCompanyReactWidgets();
 		reactPage.fillOutReactFormCompanySimple();
 		reactPage.fillOutReactFormNestedFields();
 		reactPage.fillOutReactFormFileUploadTest();
 		reactPage.fillOutReactFormDynamicFieldsSelect();
-		reactPage.fillOutReactFormRegisterMaterial();
+		//reactPage.fillOutReactFormRegisterMaterial();
 	}
 	
-	/*@AfterTest
+	@AfterTest
 	public void TearDown() {
 		driver.quit();
-	}*/
+	}
 }
