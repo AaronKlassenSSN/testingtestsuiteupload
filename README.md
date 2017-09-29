@@ -27,3 +27,5 @@ Java version: 1.8.0_101, vendor: Oracle Corporation
 Java home: C:\ssn_dev\sdks\java\jdk18_u101_x86\jre
 Default locale: en_CA, platform encoding: Cp1252
 OS name: "windows 7", version: "6.1", arch: "x86", family: "windows"
+
+Open Eclipse and import the repository cloned earlier as a Maven project.  To do this, right-click on the "Package Explorer" and select Import.  Find the Maven option, expand it, and choose "Existing Maven Project".  Under the Root directory field in the next window, click Browse and locate the directory you cloned from GIT, select it, and click Finish.  To test that the project was successfully imported, right click on testng.xml and run as a TestNG Suite.  Your browser should open and some automated tests will run. Console output in Eclipse will show whether the tests were successful.  
