@@ -1,4 +1,6 @@
 Initial Setup
+================
+
 Create a folder called ssn_qa on your C drive.
 
 Download and Extract the following zip file.  It contains most relevant files for setting up your local environment for automated test writing with Eclipse.
