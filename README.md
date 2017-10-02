@@ -1,7 +1,8 @@
 Initial Setup
 
 Download and Extract the following file.  It contains most relevant files for setting up your local environment for automated test writing with Eclipse.
-https://drive.google.com/open?id=0B_W9HkAivGoRbmhudFZFMXNNVDg
+
+https://drive.google.com/open?id=0B_W9HkAivGoRaTZKNDM1MnVaeVE
 
 Intall and set up git.  
 https://git-for-windows.github.io/
