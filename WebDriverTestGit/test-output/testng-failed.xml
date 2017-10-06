@@ -7,7 +7,7 @@
         <methods>
           <include name="AfterTests"/>
           <include name="BeforeTests"/>
-          <include name="testLogin"/>
+          <include name="testLogin" invocation-numbers="0"/>
         </methods>
       </class> <!-- runCases.LoginPage -->
     </classes>

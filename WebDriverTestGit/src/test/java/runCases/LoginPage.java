@@ -39,7 +39,7 @@ public class LoginPage {
 	@Test(priority=1, dataProvider="login")
 	public void testLogin(String email, String password) throws InterruptedException {
 		buildLoginTests = new BuildLoginPageTestCases(driver);
-		buildLoginTests.fillOutLogin(email, password);
+		buildLoginTests.testLoginAndLogout(email, password);
 	}
 	
 	@AfterTest

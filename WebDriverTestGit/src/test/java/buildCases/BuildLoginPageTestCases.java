@@ -25,10 +25,13 @@ public class BuildLoginPageTestCases {
 	}
 	
 	@Test(priority=0)
-	public void fillOutLogin(String email, String password) throws InterruptedException {
+	public void testLoginAndLogout(String email, String password) throws InterruptedException {
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//*[@id=\"auth0-lock-container-1\"]/div/div[2]/form/div/div/div[2]/span/div/div/div/div/div/div/div/div/div[2]/div[1]/div/input")).sendKeys(email);
 		driver.findElement(By.xpath("//*[@id=\"auth0-lock-container-1\"]/div/div[2]/form/div/div/div[2]/span/div/div/div/div/div/div/div/div/div[2]/div[2]/div/div/input")).sendKeys(password);
 		driver.findElement(By.xpath("//*[@id=\"auth0-lock-container-1\"]/div/div[2]/form/div/div/button/span")).click();
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//*[@id=\"root\"]/div/nav/div/div/div/div[4]/a[3]")).click();
+		driver.findElement(By.className("col-xs-6")).click();
 	}
 }
